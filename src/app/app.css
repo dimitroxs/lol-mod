@@ -1,0 +1,48 @@
+header {
+  margin-bottom: 50px;
+}
+
+.mods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.mod-card {
+  background: #1a1a2e;
+  border: 1px solid #c8aa6e;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.mod-card:hover {
+  transform: translateY(-5px);
+}
+
+.mod-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.mod-card h3 {
+  color: #c8aa6e;
+  margin-bottom: 10px;
+}
+
+.container h1,p {
+  color: #c8aa6e;
+  margin-bottom: 10px;
+}
+
+.tag {
+  background: #c8aa6e;
+  color: #0a0a0f;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}

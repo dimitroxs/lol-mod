@@ -1,9 +1,10 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal} from '@angular/core';
+import { ModCard } from './mod-card/mod-card';
 
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [ModCard],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

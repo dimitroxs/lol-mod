@@ -10,4 +10,12 @@ import { ModCard } from './mod-card/mod-card';
 })
 export class App {
   protected readonly title = signal('lol-mod');
+  mods = [
+    {
+      name: 'draven - illidan style',
+      description: 'Draven Illidan skin',
+      image: 'assets/draven-illidan.png',
+      tag: 'Skin'
+    }
+  ]
 }

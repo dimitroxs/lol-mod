@@ -4,11 +4,13 @@
   <p>my collection of mods for league of legends</p>
   </header>
   <div class="mods-grid">
-<app-mod-card
-name="draven - illidan style"
-description="Draven Illidan skin"
-image="assets/draven-illidan.png"
-tag="Skin"
-/>
+@for (mod of mods; track mod.name) {
+  <app-mod-card
+    [name]="mod.name"
+    [description]="mod.description"
+    [image]="mod.image"
+    [tag]="mod.tag"
+  />
+}
   </div>
 </div>
